@@ -1,0 +1,33 @@
+@layer reset, base, tokens, recipes, utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  h3 {
+    color: blacl;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.theme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
